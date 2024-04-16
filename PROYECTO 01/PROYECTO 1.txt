@@ -1,0 +1,63 @@
+#Hecho por Tathiana Sandoval y Henry Vasquez 
+class Transmetro
+    def__init:(self):
+        self.estaciones = ()
+            20: "Estacion Cristo Rey"
+            30: "Estacion Puerta Parada"
+            41: "Estacion 2/4"
+            51: "Estacion Gran Centro"
+        ()
+        self.rutas = ()
+            (20,30): 28
+            (30,41): 38
+            (41,51): 48
+            (20,41): 58
+            (30,51): 68
+        ()
+        self.boletos_vendidos = ()
+        self.ingresos = 0 
+    def mostar todas las estaciones(self):
+        print("Estaciones funcionando")
+        for codigo, nombre in self.estaciones.items():
+            print(f"codigo): (nombre")
+    def comprar_boleto(self):
+        print("Comprar el Boleto")
+        partida = int(input("Ingresar el numero de estacion de partida"))
+        destino = int(input("Ingresar el numero de la estacion del destino"))
+        if (partida, destino) not in self, rutas:
+            print("la ruta ingresada no es valida")
+            return 
+            nombre = input("Ingresar nombre de usuario de transmetro:")
+            edad = int(input("ingresar edad del usuario:"))
+            discapacidad= input("Cuenta con alguna discapacidad?")
+            embarazada = input("Esta embarazada?")
+
+            distancia= sel.rutas((partida,destino))
+            precio del boleto = 2.00 + (distancia - 4 )* 0.50 if distancia > 4 else 1.50
+            if embarazada:
+                precio = 1
+            elf 10 <= edad < = 15:
+                precio = 0.75 
+            if discapacidad:
+                precio= 0.50
+            distancia_tiempo de viaje_distancia/28
+            print("Boleto:")
+            print("Estacion de partida ")"",self.estaciones(partida))
+            print("Estacion de destino")"",self.estaciones(destino))
+            print("precio del boleto")"",precio)
+            print("tiwmpo del recorrido en el transmetro")"",tiempo_viaje, "horas")
+            
+            self.boleto_vendidos((partida,destino)) =self.boletos_vendidos.get((partida,destino))
+            self.ingreso += precio 
+        def mostrar_reportes(self):
+            print("Reportes")
+            for destino_ruta_partida la self.boletos_vendidos
+            print("Total de ingresos") self.ingresos
+
+        def ejecutar(self)
+            while
+            print("/precio")
+            print("Ver las estaciones existententes")
+            print("comprar boletos")
+            print(salir)
+            else ("total de ganancias")
